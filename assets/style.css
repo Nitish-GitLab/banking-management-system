@@ -1,0 +1,20 @@
+/* Banking dashboard theme: dark navy + white */
+.block-container { padding-top: 1.6rem; padding-bottom: 2rem; max-width: 1400px; }
+h1, h2, h3, h4 { color: #0B1F3A; font-weight: 650; letter-spacing: -0.01em; }
+section[data-testid="stSidebar"] { border-right: 1px solid #DCE6F2; }
+
+.app-banner {
+  background: linear-gradient(90deg, #0B1F3A 0%, #17375E 100%);
+  color: #FFFFFF; padding: 1rem 1.4rem; border-radius: 10px; margin-bottom: 1.1rem;
+}
+.app-banner h1 { color: #FFFFFF; font-size: 1.55rem; margin: 0; padding: 0; }
+.app-banner p  { color: #C9D6E8; margin: 0.25rem 0 0 0; font-size: 0.9rem; }
+
+.kpi {
+  background: #0B1F3A; color: #FFFFFF; border-radius: 10px;
+  padding: 0.9rem 1rem; margin-bottom: 0.8rem; min-height: 104px;
+  border-left: 4px solid #C9A227;
+}
+.kpi-label { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: #9DB7D9; }
+.kpi-value { font-size: 1.55rem; font-weight: 700; margin-top: 0.2rem; line-height: 1.2; }
+.kpi-sub   { font-size: 0.72rem; color: #9DB7D9; margin-top: 0.25rem; }
